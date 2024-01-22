@@ -4,7 +4,7 @@
 
 * `/benchmarks`: the source code and some examples;
 * `/learn`: the code of learners of barrier certificate;
-* `/verify`: the code of verifiers;
+* `/verify`: the code of verifier and counterexample generation;
 * `/plots`: the code of plots;
 * `/RL_train`: the code of training controller by reinforcement learning and polynomial P(x) abstraction;
 * `/utils`: the configuration of the project.
