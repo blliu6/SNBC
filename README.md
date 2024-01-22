@@ -12,7 +12,7 @@
 
 # 2.Configuration
 
-## 2.1 System requirements
+## 2.1 Project requirements
 
 To install and run SNBC, you need:
 
