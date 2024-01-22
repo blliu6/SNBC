@@ -75,8 +75,8 @@ You can create a new example at `RL_train/Env.py` as follows.
             U_zones=Zones('box', low=[2, 1], up=[4, 3]),  # the unsafe region of system.
             f=[lambda x, u: -x[0] + x[1] - x[0] ** 2 - x[1] ** 3 + x[0] + u[0],  
                lambda x, u: -2 * x[1] - x[0] ** 2 + u[0]],  # differential equations of system.
-            u=1,  # the output bound of controller 
-            path='C1/model',  # save path
+            u=1,  # the output bound of controller. 
+            path='C1/model',  # save path.
             dense=4,  #  the number of hidden layers.
             units=20,  # the neuron's number of each hidden layer.
             activation='relu',  # the activation function. 
