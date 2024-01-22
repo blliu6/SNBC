@@ -1,14 +1,12 @@
-import sys
-sys.path.append("SynNBC-main")
 from learn.cegis_barrier import Cegis
 from utils.Config_B import CegisConfig
 import timeit
 import torch
 from benchmarks.Exampler_B import get_example_by_name, get_example_by_env
 from plots.plot_barriers import plot_benchmark2d
-from RL_learn.Env import get_Env
-from RL_learn.train import RlTrain
-from RL_learn.PolynomialFit import PolFit
+from RL_train.Env import get_Env
+from RL_train.train import RlTrain
+from RL_train.PolynomialFit import PolFit
 import numpy as np
 import sympy as sp
 

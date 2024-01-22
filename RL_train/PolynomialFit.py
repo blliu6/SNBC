@@ -6,8 +6,8 @@ import sympy as sp
 from sklearn.linear_model import Ridge
 from sklearn.preprocessing import PolynomialFeatures
 
-from RL_learn.DDPG import DDPG
-from RL_learn.Env import get_Env
+from RL_train.DDPG import DDPG
+from RL_train.Env import get_Env
 
 
 class PolFit:

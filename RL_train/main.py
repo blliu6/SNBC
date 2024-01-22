@@ -1,5 +1,5 @@
-from RL_learn.train import RlTrain
-from RL_learn.PolynomialFit import PolFit
+from RL_train.train import RlTrain
+from RL_train.PolynomialFit import PolFit
 import numpy as np
 
 

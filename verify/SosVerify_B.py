@@ -129,22 +129,3 @@ class SosValidator_B():
 
         return True
 
-
-if __name__ == '__main__':
-    """
-    test code!!
-    """
-
-    B = "-1.98214774297e-10-1.25924660981e-12*x2-9.74452688236e-12*x5-9.74357368155e-12*x7+1.1449887559e-13*x10-6" \
-        ".8936332256e-11*x2^2-1.46311839551e-09*x5^2-1.46311380156e-09*x7^2-2.15799504357e-09*x10^2-3.19654158345e-10" \
-        "*x2*x5-3.19629800246e-10*x2*x7-2.56048044107e-09*x5*x7-2.00084051036e-12*x2*x10-1.07416966319e-10*x5*x10-1" \
-        ".0742096333e-10*x7*x10"
-    B = B.replace('x2', 'x1').replace('x5', 'x2').replace('x7', 'x3').replace('x10', 'x4')
-
-    Validator = SosValidator_B(get_example_by_name('emsoft_c11_4_2'), B=-10 ** 4 * sp.simplify(B))
-    t1 = time.time()
-    print('Init validation results:', Validator.SovleInit(2))
-    print('Unsafe validation results:', Validator.SovleUnsafe(2))
-    print('Lie derivative validation results:', Validator.SolveDiffB([2, 2]))
-    t2 = time.time()
-    print('validation time:{} s'.format(round(t2 - t1, 2)))

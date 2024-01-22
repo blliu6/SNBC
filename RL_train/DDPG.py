@@ -84,7 +84,7 @@ class DDPG(nn.Module):
         self.device = device
         for target_param, source_param in zip(self.actor_.parameters(), self.actor.parameters()):
             target_param.data.copy_(source_param.data)
-            target_param.requires_grad = False  # target网络不训练
+            target_param.requires_grad = False
         for target_param, source_param in zip(self.critic_.parameters(), self.critic.parameters()):
             target_param.data.copy_(source_param.data)
             target_param.requires_grad = False

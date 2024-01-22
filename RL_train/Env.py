@@ -31,8 +31,6 @@ class Zones:
             self.up = np.array(up)
             self.center = (self.low + self.up) / 2
             self.r = sum(((self.up - self.low) / 2) ** 2)
-        else:
-            raise ValueError('没有形状为{}的区域'.format(shape))
 
 
 class Example:
@@ -253,7 +251,7 @@ class Env:
                 if self.id == 9:
                     gass = np.exp(-sum(
                         [(self.s[i] - self.U_zones.center[i]) ** 2 / (self.U_zones.up[i] - self.U_zones.low[i]) ** 2 for
-                         i in range(self.n_obs)]))  # 正太分布
+                         i in range(self.n_obs)]))
                     reward -= gass / 3
                 else:
                     if self.id != 7:
@@ -262,9 +260,9 @@ class Env:
                     #     print(self.s,gass)
             elif self.U_zones.shape == 'ball':
                 if self.U_zones.inner == False:
-                    Unsafe = sum((self.s - self.U_zones.center) ** 2) > self.U_zones.r  # 在圆外
+                    Unsafe = sum((self.s - self.U_zones.center) ** 2) > self.U_zones.r
                 else:
-                    Unsafe = sum((self.s - self.U_zones.center) ** 2) < self.U_zones.r  # 在圆内
+                    Unsafe = sum((self.s - self.U_zones.center) ** 2) < self.U_zones.r
                 if Unsafe:
                     # if self.id==5 or self.id==4:
                     #     reward-=0.5

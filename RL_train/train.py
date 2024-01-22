@@ -3,9 +3,9 @@ from collections import deque
 import numpy as np
 import torch
 
-from RL_learn.DDPG import DDPG
-from RL_learn.Env import get_Env
-from RL_learn.Plot import plot
+from RL_train.DDPG import DDPG
+from RL_train.Env import get_Env
+from RL_train.Plot import plot
 
 
 class RlTrain:

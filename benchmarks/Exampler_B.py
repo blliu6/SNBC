@@ -1,6 +1,6 @@
 import numpy as np
-from RL_learn.Env import Example as env
-from RL_learn.Env import get_Env
+from RL_train.Env import Example as env
+from RL_train.Env import get_Env
 
 
 class Example():
