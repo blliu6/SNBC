@@ -1,9 +1,12 @@
 # 1.Introduction
 
-
+SNBC is a python tool for synthesizing neural barrier certificate for the NN-controlled system. We provide a new abstract method to obtain polynomial inclusions for NN-controllers trained by DDPG algorithm of reinforcement learning,
+and explore counterexample-guided learning approach to
+yield a neural barrier certificate for the closed-loop system
+with the abstract controller.
 
 * `/benchmarks`: the source code and some examples;
-* `/learn`: the code of learners of barrier certificate;
+* `/learn`: the code of learner of barrier certificate;
 * `/verify`: the code of verifier and counterexample generation;
 * `/plots`: the code of plots;
 * `/RL_train`: the code of training controller by reinforcement learning and polynomial P(x) abstraction;
@@ -59,7 +62,7 @@ Main steps as follows:
 2. Modify `identity` in `benchmarks/run.py`;
 3. Tuning hyperparameters and run it.
 
-## 3.1 New examples
+## 3.1 Case Study
 
 You can create a new example at `RL_train/Env.py` as follows.
 
@@ -82,20 +85,26 @@ You can create a new example at `RL_train/Env.py` as follows.
         )
 ```
 
-## 3.2 Modify identity
+[//]: # (## 3.2 Modify identity)
 
-After you create the example you want, you can modify the parameter `identity` at `benchmarks/run.py` to the corresponding ID.
+[//]: # ()
+[//]: # (After you create the example you want, you can modify the parameter `identity` at `benchmarks/run.py` to the corresponding ID.)
 
-## 3.3 Tuning hyperparameters and run it
+[//]: # ()
+[//]: # (## 3.3 Tuning hyperparameters and run it)
 
-If you failed, adjust the hyperparameters and try again.
+[//]: # ()
+[//]: # (If you failed, adjust the hyperparameters and try again.)
 
-# 4. Result
+## 3.2 Result
+
+Finally, you can get the polynomial abstraction P(x) of NN controller and the barrier certificate B(x) for the system.
 
 ```python
 P(x)=-0.01782780568647*x1**2 + 0.0304303727546807*x1*x2 + 0.0671740437924431*x1 - 0.234335039813611*x2**2 - 0.837997680548356*x2
 B(x)= -0.164659815707088*x1**2 + 1.96691021817663*x1*x2 + 0.823110971728375*x1 - 2.31320037980075*x2**2 + 15.9294101325842*x2 - 3.10400062966616
 ```
+Phase portrait of barrier certificate for the system in example C1:
 
 ![Barrier Certificate](https://github.com/blliu6/SNBC/tree/main/benchmarks/img/C1_2d.png)
 ![Barrier Certificate](https://github.com/blliu6/SNBC/tree/main/benchmarks/img/C1_3d.png)
