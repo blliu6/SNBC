@@ -1,0 +1,2 @@
+time of recording,name,n,nhl,nm,t_learn,t_cex,t_sos,rate,batch_size,iter,activation
+12:52.2,C12,7,20,"[5, 1]",294.2685051,23.42797714,50.95496138,0.2,5000,12,['MUL']

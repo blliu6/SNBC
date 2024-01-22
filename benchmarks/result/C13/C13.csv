@@ -1,0 +1,3 @@
+time of recording,name,n,nhl,nm,t_learn,t_cex,t_sos,rate,batch_size,iter,activation
+45:52.4,C13,9,15,[],327.5876547,49.5833691,191.4747949,0.2,2000,8,['SKIP']
+17:53.0,C13,9,15,[],72.7952508,452.5129227,95.07403658,0.1,1500,8,['MUL']

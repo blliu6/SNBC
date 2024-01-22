@@ -1,0 +1,286 @@
+time of recording: 2023-08-01 11:57:47.345832
+The configuration information is as follows:
+   ACTIVATION: ['SKIP']
+   N_HIDDEN_NEURONS: [20]
+   MULTIPLICATOR: True
+   MULTIPLICATOR_NET: []
+   MULTIPLICATOR_ACT: []
+   BATCH_SIZE: 1000
+   LEARNING_RATE: 0.01
+   LOSS_WEIGHT: (1.0, 1.0, 1.0)
+   MARGIN: 2.0
+   SPLIT_D: True
+   DEG: [2, 2, 2, 1]
+   R_b: 0.5
+
+The runtime is as follows:
+   Total learning time: 10.2856722
+   Total counter-examples generating time: 0.3253155000000021
+   Total sos verifying time: 3.970913000000003
+
+The synthetic Barrier Certificate is as follows:
+   Iter: 2
+   B=0.0745017341865122*x1**2 - 0.0260956330947109*x1*x2 + 0.407340505982118*x1*x3 + 0.0267964909452814*x1*x4 + 0.0793492650566872*x1 + 0.126644430315
+534*x2**2 - 0.107391260978213*x2*x3 + 0.192134193606712*x2*x4 - 1.12923360924939*x2 + 0.286009404597275*x3**2 - 0.321921076348932*x3*x4 - 1.5308526123
+3164*x3 + 0.223597836667497*x4**2 - 0.679611994215865*x4 - 2.67723533308639
+
+time of recording: 2023-08-24 08:58:52.132128
+The configuration information is as follows:
+   ACTIVATION: ['SKIP']
+   N_HIDDEN_NEURONS: [20]
+   MULTIPLICATOR: True
+   MULTIPLICATOR_NET: []
+   MULTIPLICATOR_ACT: []
+   BATCH_SIZE: 1000
+   LEARNING_RATE: 0.01
+   LOSS_WEIGHT: (1.0, 1.0, 1.0)
+   MARGIN: 2.0
+   SPLIT_D: True
+   DEG: [2, 2, 2, 1]
+   R_b: 0.5
+
+The runtime is as follows:
+   Total learning time: 7.4025219
+   Total counter-examples generating time: 0.1834891999999968
+   Total sos verifying time: 3.8770056999999962
+
+The synthetic Barrier Certificate is as follows:
+   Iter: 2
+   B=0.0746809289673996*x1**2 - 0.027841129670759*x1*x2 + 0.407657183867112*x1*x3 + 0.024395441296372*x1*x4 + 0.0781918833810715*x1 + 0.12750814354306
+3*x2**2 - 0.106967904446783*x2*x3 + 0.194669189028938*x2*x4 - 1.12564629994161*x2 + 0.287429844957146*x3**2 - 0.319078443120506*x3*x4 - 1.528605609525
+11*x3 + 0.223756260574547*x4**2 - 0.679359743830233*x4 - 2.67616950137601
+
+time of recording: 2023-08-24 09:04:08.944326
+The configuration information is as follows:
+   ACTIVATION: ['SKIP']
+   N_HIDDEN_NEURONS: [20]
+   MULTIPLICATOR: True
+   MULTIPLICATOR_NET: []
+   MULTIPLICATOR_ACT: []
+   BATCH_SIZE: 1000
+   LEARNING_RATE: 0.01
+   LOSS_WEIGHT: (1.0, 1.0, 1.0)
+   MARGIN: 2.0
+   SPLIT_D: True
+   DEG: [2, 2, 2, 1]
+   R_b: 0.5
+
+The runtime is as follows:
+   Total learning time: 8.5534697
+   Total counter-examples generating time: 0.20267060000000114
+   Total sos verifying time: 3.5039871
+
+The synthetic Barrier Certificate is as follows:
+   Iter: 2
+   B=0.0751586317676189*x1**2 - 0.0268541510115836*x1*x2 + 0.407270164663043*x1*x3 + 0.0264644644559989*x1*x4 + 0.0784001255955488*x1 + 0.126487476234
+587*x2**2 - 0.107424047687122*x2*x3 + 0.1914799118955*x2*x4 - 1.12812504794263*x2 + 0.285409369873947*x3**2 - 0.321416396574211*x3*x4 - 1.531666950622
+07*x3 + 0.223396123539737*x4**2 - 0.681163672711862*x4 - 2.67734799915112
+
+time of recording: 2023-10-30 16:49:39.314426
+The configuration information is as follows:
+   ACTIVATION: ['MUL']
+   N_HIDDEN_NEURONS: [10]
+   MULTIPLICATOR: True
+   MULTIPLICATOR_NET: [5, 1]
+   MULTIPLICATOR_ACT: ['LINEAR']
+   BATCH_SIZE: 1000
+   LEARNING_RATE: 0.01
+   LOSS_WEIGHT: (1.0, 1.0, 1.0)
+   MARGIN: 2.0
+   SPLIT_D: True
+   DEG: [2, 2, 2, 1]
+   R_b: 0.5
+
+The runtime is as follows:
+   Total learning time: 2.9349191384389997
+   Total counter-examples generating time: 0.16341471020132303
+   Total sos verifying time: 2.1461259396746755
+
+The synthetic Barrier Certificate is as follows:
+   Iter: 2
+   B=-0.0674753507377008*x1**2 - 0.168622056134343*x1*x2 + 0.529543305652335*x1*x3 + 0.0343802240671691*x1*x4 - 0.825486511978372*x1 + 0.1069031801627
+78*x2**2 - 0.0154729736109632*x2*x3 - 0.0165049181101555*x2*x4 - 1.20801150843491*x2 + 0.241459152640881*x3**2 - 0.166279691789982*x3*x4 - 1.185587333
+04906*x3 + 0.09262141051827*x4**2 - 0.609845553186121*x4 - 2.80710985041017
+
+time of recording: 2023-10-30 17:00:42.670337
+The configuration information is as follows:
+   ACTIVATION: ['MUL']
+   N_HIDDEN_NEURONS: [10]
+   MULTIPLICATOR: True
+   MULTIPLICATOR_NET: [5, 1]
+   MULTIPLICATOR_ACT: ['LINEAR']
+   BATCH_SIZE: 1000
+   LEARNING_RATE: 0.01
+   LOSS_WEIGHT: (1.0, 1.0, 1.0)
+   MARGIN: 2.0
+   SPLIT_D: True
+   DEG: [2, 2, 2, 1]
+   R_b: 0.5
+
+The runtime is as follows:
+   Total learning time: 2.9201887166127563
+   Total counter-examples generating time: 0.15990535262972116
+   Total sos verifying time: 2.1574280858039856
+
+The synthetic Barrier Certificate is as follows:
+   Iter: 2
+   B=-0.0674967786051159*x1**2 - 0.168498453280906*x1*x2 + 0.529812952689607*x1*x3 + 0.034392242351495*x1*x4 - 0.82543797707864*x1 + 0.106998543848572
+*x2**2 - 0.0150620158528029*x2*x3 - 0.0165741199056823*x2*x4 - 1.20740277890608*x2 + 0.241537056039241*x3**2 - 0.166271846089359*x3*x4 - 1.18529579888
+788*x3 + 0.0926205322951567*x4**2 - 0.610070166938627*x4 - 2.80711606056766
+
+time of recording: 2023-10-30 17:01:50.137676
+The configuration information is as follows:
+   ACTIVATION: ['MUL']
+   N_HIDDEN_NEURONS: [10]
+   MULTIPLICATOR: True
+   MULTIPLICATOR_NET: [5, 1]
+   MULTIPLICATOR_ACT: ['LINEAR']
+   BATCH_SIZE: 1000
+   LEARNING_RATE: 0.01
+   LOSS_WEIGHT: (1.0, 1.0, 1.0)
+   MARGIN: 2.0
+   SPLIT_D: True
+   DEG: [2, 2, 2, 1]
+   R_b: 0.5
+
+The runtime is as follows:
+   Total learning time: 2.9004054935649037
+   Total counter-examples generating time: 0.15999225713312626
+   Total sos verifying time: 2.16031308285892
+
+The synthetic Barrier Certificate is as follows:
+   Iter: 2
+   B=-0.0674002037380595*x1**2 - 0.16863816647238*x1*x2 + 0.529000057932881*x1*x3 + 0.0343894608906436*x1*x4 - 0.82566418611645*x1 + 0.107057016938703
+*x2**2 - 0.016640383435602*x2*x3 - 0.0165497068830959*x2*x4 - 1.20843901169119*x2 + 0.241240203945188*x3**2 - 0.166297519005976*x3*x4 - 1.186894962830
+05*x3 + 0.0926066559774266*x4**2 - 0.609435329977311*x4 - 2.80683349791804
+
+time of recording: 2023-10-30 17:02:03.544450
+The configuration information is as follows:
+   ACTIVATION: ['MUL']
+   N_HIDDEN_NEURONS: [10]
+   MULTIPLICATOR: True
+   MULTIPLICATOR_NET: [5, 1]
+   MULTIPLICATOR_ACT: ['LINEAR']
+   BATCH_SIZE: 1000
+   LEARNING_RATE: 0.01
+   LOSS_WEIGHT: (1.0, 1.0, 1.0)
+   MARGIN: 2.0
+   SPLIT_D: True
+   DEG: [2, 2, 2, 1]
+   R_b: 0.5
+
+The runtime is as follows:
+   Total learning time: 2.930199073627591
+   Total counter-examples generating time: 0.1607604157179594
+   Total sos verifying time: 2.145457032136619
+
+The synthetic Barrier Certificate is as follows:
+   Iter: 2
+   B=-0.0675422285772943*x1**2 - 0.168805794909071*x1*x2 + 0.529157945158467*x1*x3 + 0.0344658231383805*x1*x4 - 0.82556296853141*x1 + 0.10707437935732
+2*x2**2 - 0.0165689853448546*x2*x3 - 0.0164879146054101*x2*x4 - 1.20866498678482*x2 + 0.241348411675487*x3**2 - 0.166251571778506*x3*x4 - 1.1866153149
+1291*x3 + 0.0926435995778766*x4**2 - 0.609775040836716*x4 - 2.80710783045862
+
+time of recording: 2023-11-15 16:49:57.350209
+The configuration information is as follows:
+   ACTIVATION: ['MUL']
+   N_HIDDEN_NEURONS: [5]
+   MULTIPLICATOR: True
+   MULTIPLICATOR_NET: [5, 1]
+   MULTIPLICATOR_ACT: ['LINEAR']
+   BATCH_SIZE: 500
+   LEARNING_RATE: 0.01
+   LOSS_WEIGHT: (1.0, 1.0, 1.0)
+   MARGIN: 2.0
+   SPLIT_D: True
+   DEG: [2, 2, 2, 1]
+   R_b: 0.6
+
+The runtime is as follows:
+   Total learning time: 2.6147889108397067
+   Total counter-examples generating time: 1.831596062052995
+   Total sos verifying time: 3.4364158210810274
+
+The synthetic Barrier Certificate is as follows:
+   Iter: 4
+   B=0.102518793990438*x1**2 + 0.0207856389316963*x1*x2 + 0.40862932807375*x1*x3 - 0.0522438811481172*x1*x4 - 0.199954419954422*x1 + 0.124254075226939
+*x2**2 + 0.0688208432117687*x2*x3 + 0.137540330389328*x2*x4 - 0.769987496968516*x2 + 0.141086576442145*x3**2 - 0.459382004779837*x3*x4 - 3.25666437442
+227*x3 + 0.319410328402025*x4**2 - 0.839342565396683*x4 - 3.45612586974481
+
+time of recording: 2023-11-15 16:51:07.771438
+The configuration information is as follows:
+   ACTIVATION: ['MUL']
+   N_HIDDEN_NEURONS: [5]
+   MULTIPLICATOR: True
+   MULTIPLICATOR_NET: [5, 1]
+   MULTIPLICATOR_ACT: ['LINEAR']
+   BATCH_SIZE: 500
+   LEARNING_RATE: 0.1
+   LOSS_WEIGHT: (1.0, 1.0, 1.0)
+   MARGIN: 2.0
+   SPLIT_D: True
+   DEG: [2, 2, 2, 1]
+   R_b: 0.6
+
+The runtime is as follows:
+   Total learning time: 0.18630931712687016
+   Total counter-examples generating time: 0
+   Total sos verifying time: 1.2823419580236077
+
+The synthetic Barrier Certificate is as follows:
+   Iter: 1
+   B=0.0997095071880977*x1**2 - 0.107717412554699*x1*x2 - 0.00201698875318362*x1*x3 + 0.028891472019464*x1*x4 - 0.684932946679642*x1 - 0.0217164369309
+113*x2**2 - 0.402367519120897*x2*x3 + 0.278418749521297*x2*x4 - 1.41679138369763*x2 + 0.304240019906633*x3**2 - 1.12145925928942*x3*x4 - 1.77736121500
+422*x3 + 0.635487685694916*x4**2 - 0.164747734050546*x4 - 2.36406786215352
+
+time of recording: 2023-11-15 16:51:19.377609
+The configuration information is as follows:
+   ACTIVATION: ['MUL']
+   N_HIDDEN_NEURONS: [5]
+   MULTIPLICATOR: True
+   MULTIPLICATOR_NET: [5, 1]
+   MULTIPLICATOR_ACT: ['LINEAR']
+   BATCH_SIZE: 500
+   LEARNING_RATE: 0.1
+   LOSS_WEIGHT: (1.0, 1.0, 1.0)
+   MARGIN: 2.0
+   SPLIT_D: True
+   DEG: [2, 2, 2, 1]
+   R_b: 0.6
+
+The runtime is as follows:
+   Total learning time: 0.2073355340398848
+   Total counter-examples generating time: 0
+   Total sos verifying time: 1.2564693388994783
+
+The synthetic Barrier Certificate is as follows:
+   Iter: 1
+   B=0.0997095071880977*x1**2 - 0.107717412554699*x1*x2 - 0.00201698875318362*x1*x3 + 0.028891472019464*x1*x4 - 0.684932946679642*x1 - 0.0217164369309
+113*x2**2 - 0.402367519120897*x2*x3 + 0.278418749521297*x2*x4 - 1.41679138369763*x2 + 0.304240019906633*x3**2 - 1.12145925928942*x3*x4 - 1.77736121500
+422*x3 + 0.635487685694916*x4**2 - 0.164747734050546*x4 - 2.36406786215352
+
+time of recording: 2023-11-20 10:46:31.664793
+The configuration information is as follows:
+   ACTIVATION: ['MUL']
+   N_HIDDEN_NEURONS: [5]
+   MULTIPLICATOR: True
+   MULTIPLICATOR_NET: [5, 1]
+   MULTIPLICATOR_ACT: ['LINEAR']
+   BATCH_SIZE: 500
+   LEARNING_RATE: 0.1
+   LOSS_WEIGHT: (1.0, 1.0, 1.0)
+   MARGIN: 2.0
+   SPLIT_D: True
+   DEG: [2, 2, 2, 1]
+   R_b: 0.6
+
+The runtime is as follows:
+   Total learning time: 0.9449393891263753
+   Total counter-examples generating time: 0
+   Total sos verifying time: 1.1444117929786444
+
+The synthetic Barrier Certificate is as follows:
+   Iter: 1
+   B=0.0997095071880977*x1**2 - 0.107717412554699*x1*x2 - 0.00201698875318362*x1*x3 + 0.028891472019464*x1*x4 - 0.684932946679642*x1 - 0.0217164369309
+113*x2**2 - 0.402367519120897*x2*x3 + 0.278418749521297*x2*x4 - 1.41679138369763*x2 + 0.304240019906633*x3**2 - 1.12145925928942*x3*x4 - 1.77736121500
+422*x3 + 0.635487685694916*x4**2 - 0.164747734050546*x4 - 2.36406786215352
+
